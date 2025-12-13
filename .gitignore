@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.env/
+
+# Data files (VERY IMPORTANT)
+data/raw/
+data/sampled/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
