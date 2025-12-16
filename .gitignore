@@ -2,10 +2,12 @@
 venv/
 .env/
 
-# Data files (VERY IMPORTANT)
-data/raw/
-data/sampled/
-data/processed/
+
+# Data files
+data/*
+!data/processed/
+!data/processed/crimes_deploy_sample.csv
+
 
 # Jupyter
 .ipynb_checkpoints/
