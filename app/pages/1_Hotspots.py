@@ -3,9 +3,11 @@ import pandas as pd
 
 st.title("📍 Crime Hotspot Identification")
 
-df = pd.read_csv("data/processed/crimes_500k_features.csv").sample(
-    n=20000, random_state=42
-)
+
+
+df = pd.read_csv("data/processed/crimes_deploy_sample.csv")
+
+
 
 
 st.write("### Sample of clustered crime data")

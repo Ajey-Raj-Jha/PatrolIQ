@@ -3,9 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title("⏰ Temporal Crime Patterns")
-df = pd.read_csv("data/processed/crimes_500k_features.csv").sample(
-    n=20000, random_state=42
-)
+df = pd.read_csv("data/processed/crimes_deploy_sample.csv")
+
 
 df["hour"] = df["hour"].astype(int)
 
